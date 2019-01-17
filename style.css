@@ -1,0 +1,137 @@
+body {
+    font-family: 'Baloo Tamma', cursive;
+    background-color: #edc7ed;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    padding: 0 10px;
+}
+
+h4 {
+    padding: 0 25px;
+    font-size: 20px;
+}
+
+.userImage {
+    display: flex;
+    justify-content: center;
+}
+
+.userOneImage {
+
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+}
+
+.userTwoImage {
+
+    background-image: url('https://cdn5.vectorstock.com/i/1000x1000/54/04/glitter-gold-star-isolated-on-white-backgro-vector-22835404.jpg');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    
+}
+
+.userScore {
+    display: flex;
+    margin-left: 50%;
+}
+
+.line1 {
+    display: flex;
+    justify-content: center;
+    
+}
+.line1 div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.line2 {
+    display: flex;
+    justify-content: center;
+    
+}
+.line2 div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+
+.line3 {
+    display: flex;
+    justify-content: center;
+    
+}
+.line3 div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 60px;
+   
+}
+
+
+.userOneChanged {
+    /* background-color: #e98074; */
+    background-size: contain;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png');
+
+
+}
+
+.userTwoChanged {
+    /* background-color: #5ab9ea; */
+    background-size: cover;
+    background-image: url('https://cdn5.vectorstock.com/i/1000x1000/54/04/glitter-gold-star-isolated-on-white-backgro-vector-22835404.jpg');
+}
+
+.hidden {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.playButton {
+    width: 100px;
+    height: 25px;
+    background-color: coral;
+    border-radius: 20px;
+    margin: 0 20px;
+    
+}
+
+.resetButton {
+    width: 100px;
+    height: 25px;
+    background-color: coral;
+    border-radius: 20px;
+    margin: 0 20px;
+}
