@@ -9,46 +9,44 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to Tic Tac Toe</h1>
-
-    <h2 class="userOneWin">User1 win!!</h2>
-    <h2 class="userTwoWin">User2 win!!</h2>
-    <h2 class="userDraw">DRAW</h2>
-
-    <div class="userImage">
-        <h3>user 1:</h3>
-        <div class="userOneImage"></div>
-        <h3>user 2:</h3>
-        <div class="userTwoImage"></div>
+    <header>
+        <h2>Welcome to Tic Tac Toe</h2>
+        <h2 class="userOneWin">User1 win!!</h2>
+        <h2 class="userTwoWin">User2 win!!</h2>
+        <h2 class="userDraw">DRAW</h2>
     
-        <div class="userScore">
-        <h4>Count user1 WIN : <span class="userOneScore">0</span></h4>
-        <h4>Count user2 WIN : <span class="userTwoScore">0</span></h4>
-        </div>
-    </div>
 
-    <main>
+        <div class="userImage">
+            <h3>user 1:</h3>
+            <div class="userOneImage"></div>
+            <h3>user 2:</h3>
+            <div class="userTwoImage"></div>
         
+            <div class="userScore">
+            <h5>Count user1 WIN : <span class="userOneScore">0</span></h5>
+            <h5>Count user2 WIN : <span class="userTwoScore">0</span></h5>
+            </div>
+        </div>
+    </header>
+
+    <main class="board">
         <div class="line1">
-            <div class="num">1</div>
-            <div class="num">2</div>
-            <div class="num">3</div>
+            <div id="0" class="num"></div>
+            <div id="1" class="num"></div>
+            <div id="2" class="num"></div>
         </div>
         
-    
         <div class="line2">
-            <div class="num">4</div>
-            <div class="num">5</div>
-            <div class="num">6</div>
+            <div id="3" class="num"></div>
+            <div id="4" class="num"></div>
+            <div id="5" class="num"></div>
         </div>
 
         <div class="line3">
-            <div class="num">7</div>
-            <div class="num">8</div>
-            <div class="num">9</div>
+            <div id="6" class="num"></div>
+            <div id="7" class="num"></div>
+            <div id="8" class="num"></div>
         </div>
-
-
 
         <div class="buttons">
         <button class="playButton">Play again</button>
